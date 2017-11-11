@@ -1,0 +1,11 @@
+{
+    "name": "dac/messages",
+    "description": "Messages base",
+    "authors": [
+        {
+            "name": "Alex Koch",
+            "email": "alexk0ch@yandex.ru"
+        }
+    ],
+    "require": {}
+}
