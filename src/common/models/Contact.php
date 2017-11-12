@@ -6,11 +6,6 @@ namespace dac\common\models {
     class Contact
     {
         /**
-         * @var int
-         */
-        protected $id;
-
-        /**
          * @var string
          */
         protected $name;
@@ -24,14 +19,6 @@ namespace dac\common\models {
          * @var string
          */
         protected $phone;
-
-        /**
-         * @return int
-         */
-        public function getId()
-        {
-            return $this->id;
-        }
 
         /**
          * @return string
@@ -55,14 +42,6 @@ namespace dac\common\models {
         public function getPhone()
         {
             return $this->phone;
-        }
-
-        /**
-         * @param int $id
-         */
-        public function setId($id)
-        {
-            $this->id = $id;
         }
 
         /**

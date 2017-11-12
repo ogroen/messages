@@ -26,7 +26,7 @@ namespace dac\common\models {
         protected $categories;
 
         /**
-         * @var Contact
+         * @var User
          */
         protected $contact;
 
@@ -88,7 +88,7 @@ namespace dac\common\models {
         }
 
         /**
-         * @return Contact
+         * @return User
          */
         public function getContact()
         {
@@ -168,7 +168,7 @@ namespace dac\common\models {
         }
 
         /**
-         * @param Contact $contact
+         * @param User $contact
          */
         public function setContact($contact)
         {
