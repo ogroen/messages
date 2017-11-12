@@ -1,7 +1,7 @@
 <?php
 
 
-namespace notification\commands {
+namespace dac\notification\commands {
 
     use dac\common\models\Contact;
     use dac\common\models\Franchise;
