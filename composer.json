@@ -7,5 +7,9 @@
             "email": "alexk0ch@yandex.ru"
         }
     ],
-    "require": {}
+    "autoload": {
+        "psr-4": {
+            "dac\\": "src/"
+        }
+    }
 }
