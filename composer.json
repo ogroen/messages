@@ -1,12 +1,7 @@
 {
     "name": "dac/messages",
     "description": "Messages base",
-    "authors": [
-        {
-            "name": "Alex Koch",
-            "email": "alexk0ch@yandex.ru"
-        }
-    ],
+    "license": "MIT",
     "autoload": {
         "psr-4": {
             "dac\\": "src/"
