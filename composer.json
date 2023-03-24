@@ -1,0 +1,19 @@
+{
+    "name": "ogroen/messages",
+    "description": "Messages package",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Ogroen\\Messages\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "damir",
+            "email": "insomnia.kzn@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
