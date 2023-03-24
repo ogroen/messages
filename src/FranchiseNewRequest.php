@@ -79,46 +79,4 @@ class FranchiseNewRequest extends Message
     {
         return $this->text;
     }
-
-    /**
-     * @param int $franchisePk
-     */
-    public function setFranchisePk(int $franchisePk): void
-    {
-        $this->franchisePk = $franchisePk;
-    }
-
-    /**
-     * @param string $name
-     */
-    public function setName(string $name): void
-    {
-        $this->name = $name;
-    }
-
-    /**
-     * @param string $email
-     */
-    public function setEmail(string $email): void
-    {
-        $this->email = $email;
-    }
-
-    /**
-     * @param string $phone
-     */
-    public function setPhone(string $phone): void
-    {
-        $this->phone = $phone;
-    }
-
-    /**
-     * @param string $text
-     */
-    public function setText(string $text): void
-    {
-        $this->text = $text;
-    }
-
-
 }
