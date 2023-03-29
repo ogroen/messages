@@ -1,8 +1,8 @@
 <?php
 
-namespace Ogroen\Messages;
+namespace Ogroen\Messages\v1;
 
-class FranchiseNewRequest extends Message
+class FranchiseNewRequest
 {
     /**
      * @var int
